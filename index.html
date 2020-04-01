@@ -95,10 +95,9 @@
         <option value="">Yukon</option>
       </div>
     </form>
-
-    <form>
       <div>
-        <label for="active">What activities are you interested in helping with?</label>
+      <fieldset>
+        <legend>What activities are you interested in helping with?</legend>
         <input type="checkbox" name="activities" id="activities">
         <label for="activities">Digging holes</label>
         <input type="checkbox" name="activities" id="activities">
@@ -110,7 +109,9 @@
         <label for="activities">Taking photos</label><input type="checkbox" name="activities" id="activities">
         <label for="activities">Online publishing</label><input type="checkbox" name="activities" id="activities">
         <label for="activities">Managing people</label>
-        <label for="experience">Do you have any experience with the following?</label>
+      </fieldset>
+      <fieldset>
+      <legend>Do you have any experience with the following?</legend>
         <input type="checkbox" name="experience" id="experience">
         <label for="experience">Shovels</label>
         <input type="checkbox" name="experience" id="experience">
@@ -123,8 +124,30 @@
         <label for="experience">Plant identification</label><input type="checkbox" name="experience" id="experience">
         <label for="experience">Special event planning</label><input type="checkbox" name="experience" id="experience">
         <label for="experience">Speaking to groups</label>
+      </fieldset>
       </div>
     </form>
+    <fieldset>
+      <legend>Do you have a valid driver’s license?</legend>
+      <input type="radio" id="yes" name="yes" value="">
+      <label for="yes">yes</label>
+      <input type="radio" id="no" name="no" value="">
+      <label for="no">no</label>
+    </fieldset>
+    <fieldset>
+      <legend>Do you have a pick-up truck you’d be willing</legend>
+      <input type="radio" id="yes" name="yes" value="">
+      <label for="yes">yes</label>
+      <input type="radio" id="no" name="no" value="">
+      <label for="no">no</label>
+    </fieldset>
+    <fieldset>
+      <legend>Do you have up-to-date first-aid certification?</legend>
+      <input type="radio" id="yes" name="yes" value="">
+      <label for="yes">yes</label>
+      <input type="radio" id="no" name="no" value="">
+      <label for="no">no</label>
+    </fieldset>
   </section>
 </body>
 </html>
