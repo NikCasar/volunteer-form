@@ -8,12 +8,12 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
-  <section>
-    <div class="">
-      <h1>Apply to be a tree planter</h1>
-      <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    <div class="banner gutter">
+      <h1 class="pad-t push-1-2">Apply to be a tree planter</h1>
+      <p class="pad-b">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </div>
     <fieldset>
       <legend>Personal details</legend>
@@ -22,31 +22,31 @@
       <div class="">
         <label for="name">Full name</label>
         <input id="name" type="text" name="name" value="" required>
-        <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+        <p class="italic milli">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
       </div>
       <div class="">
         <label for="nikname">What should we call you?</label>
         <input id="nikname" type="text" name="nikname" value="" required>
-        <p>What all your friends call you, e.g. “Liz”.</p>
+        <p class="italic milli">What all your friends call you, e.g. “Liz”.</p>
       </div>
       <div class="">
         <label for="date-of-birth">Date of birth</label>
-        <input id="date-of-birth" name="date" type="month" placeholder="yyyy-mm-dd">
+        <input id="date-of-birth" name="date" type="month">
       </div>
       <div class="">
         <label for="size">T-shirt size</label>
         <select id="size" name="t-shirt" required>
           <option value="disabled">Select a t-shirt size</option>
-          <option value="xs">Fitted: XS</option>
-          <option value="s">Fitted: S</option>
-          <option value="m">Fitted: M</option>
-          <option value="l">Fitted: L</option>
-          <option value="xl">Fitted: XL</option>
-          <option value="sc-xs">Straight-cut: XS</option>
-          <option value="sc-s">Straight-cut: S</option>
-          <option value="sc-m">Straight-cut: M</option>
-          <option value="sc-l">Straight-cut: XL</option>
-          <option value="sc-xl">Straight-cut: XL</option>
+          <option value="">Fitted: XS</option>
+          <option value="">Fitted: S</option>
+          <option value="">Fitted: M</option>
+          <option value="">Fitted: L</option>
+          <option value="">Fitted: XL</option>
+          <option value="">Straight-cut: XS</option>
+          <option value="">Straight-cut: S</option>
+          <option value="">Straight-cut: M</option>
+          <option value="">Straight-cut: XL</option>
+          <option value="">Straight-cut: XL</option>
         </select>
       </div>
       <div class="">
@@ -59,7 +59,7 @@
       </div>
     </form>
   </section>
-  <section>
+  <section class="gutter max-length">
     <fieldset>
       <legend>Address</legend>
     </fieldset>
@@ -154,13 +154,13 @@
     <label for="comments">Please let us know any comments or questions you may have.</label>
     <textarea id="comments" name="comments" rows="8" cols="80"></textarea>
   </div>
-  <div class="">
+  <div class="text-center push pad-t">
     <button type="submit" name="apply">Apply
 </button>
   </div>
   </section>
-  <footer>
-    <small>© Tree Hugger International Organization
+  <footer class="pad-t pad-b">
+    <small class="wrapper">© Tree Hugger International Organization
 </small>
   </footer>
 </body>
